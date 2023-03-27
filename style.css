@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;500;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --cor0: rgba(205,208,195,255);
+    --fonte-padrao: Arial, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive'
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #cdd0c3;
+}
+header{
+    background-color: white;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    
+}
+header img{
+    padding-left: 3px;
+}
+header nav {
+    font-family: Arial;
+    min-height: 60px;
+    padding: 0px 42px;
+    margin-bottom: 10px;
+    display: flex;
+    /*border-bottom: 1px solid rgb(232, 232, 232);*/
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    content: '\2B07';
+    
+}
+main h1{
+    line-height: 100%;
+    font-size: 72px;
+    font-family: 'Inter', serif;
+    margin: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #403424
+}
+a {
+    text-decoration-style: dotted;
+}
+#link01{
+    font-family: 'Inter';
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 4px;
+    color: rgb(51, 51, 51);
+}
+.links {
+    font-family: 'Inter';
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 4px;
+    color: rgb(51, 51, 51);
+}
+main p {
+    background-color: #288464;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter';
+    height: 30px;
+    width: 10rem;
+    margin: 1px;
+    padding: 10px 7px 0px 10px;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+}
+.container {
+    display: flex; /* define o elemento como flexbox */
+    align-items: center; /* alinha os itens verticalmente */
+  }
+  img {
+    max-width: 100%; /* garante que a imagem não ultrapasse o tamanho do container */
+    margin-right: 20px; /* adiciona uma margem à direita para separar a imagem do texto */
+  }
+  .container p{
+        font-family: 'Inter';
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 19px;
+  }
+  main p:hover {
+    background-color: rgba(25, 99, 25, 0.795);
+    transition: ease 0.4s;
+  }
+  #img1{
+    margin-left: 150px;
+  }
+  .main2 {
+        font-family: 'Inter';
+        color: #403424;
+        font-weight: bold;
+  }
+.pgreen {
+    display: inline;
+    
+}
